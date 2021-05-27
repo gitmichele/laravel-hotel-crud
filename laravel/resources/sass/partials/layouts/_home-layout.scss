@@ -1,0 +1,56 @@
+@import '../base';
+
+#all-employees{
+
+        .container.hor-flex{
+
+            border: 1px solid $light-first-color;
+            margin-top: 100px;
+            padding-top: 30px;
+
+            .data-col{
+
+                width: calc(100% / 3);
+
+                ul{
+
+                    list-style: none;
+
+                    li{
+
+                        height: 60px;
+                        line-height: 60px;
+                        width: 100%;
+                        border-bottom: 1px solid $light-first-color;
+                        text-align: center;
+
+                        a{
+
+                            text-decoration: none;
+                            color: #000;
+                            font-size: $def-font;
+                        
+                            &:hover{
+
+                                color: $third-color;
+                            }
+                        }
+
+                        i{
+
+                            font-size: $big-size;
+                        }
+                    }
+
+                    li:first-child{
+
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        font-size: $big-size;
+                        height: auto;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+}

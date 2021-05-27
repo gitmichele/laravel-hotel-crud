@@ -1,0 +1,39 @@
+// text
+$def-font: 'Roboto', sans-serif;
+$def-size: 18px;
+$small-size: 14px;
+$very-small-size: 12px;
+$big-size: 22px;
+$main-title: 48px;
+
+// colors
+$first-color: #5B7BA6;
+$second-color: #D9C877;
+$third-color: #D9AE89;
+$dark-first-color: #253B59;
+$light-first-color: #8FBDD9;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $def-font;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.hor-flex{
+    display: flex;
+}
+
+.col-flex{
+    display: flex;
+    flex-direction: column;
+}
+

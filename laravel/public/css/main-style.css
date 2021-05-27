@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.hor-flex {
+  display: flex;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-header {
+  height: 100px;
+  background-color: #8FBDD9;
+}
+
+#main-header .container.hor-flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-header .container.hor-flex .logo {
+  color: #D9C877;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #253B59;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.hor-flex {
+  display: flex;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#all-employees .container.hor-flex {
+  border: 1px solid #8FBDD9;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+#all-employees .container.hor-flex .data-col {
+  width: calc(100% / 3);
+}
+
+#all-employees .container.hor-flex .data-col ul {
+  list-style: none;
+}
+
+#all-employees .container.hor-flex .data-col ul li {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #8FBDD9;
+  text-align: center;
+}
+
+#all-employees .container.hor-flex .data-col ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: "Roboto", sans-serif;
+}
+
+#all-employees .container.hor-flex .data-col ul li a:hover {
+  color: #D9AE89;
+}
+
+#all-employees .container.hor-flex .data-col ul li i {
+  font-size: 22px;
+}
+
+#all-employees .container.hor-flex .data-col ul li:first-child {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
