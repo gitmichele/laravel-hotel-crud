@@ -53,4 +53,23 @@ class WorkersController extends Controller
 
         return redirect() -> route('show', $employee -> id);
     }
+
+    public function create() {
+
+        return view('pages.create');
+    }
+    public function store(Request $request) {
+
+        $validated = $request -> validate ([
+
+            'firstname' => 'required|string',
+            'lastname' => 'required|string',
+            'role' => 'required|string',
+            'ral' => 'numeric'
+        ]);
+
+        $employee = Employee::create($validated);
+
+        return redirect() -> route('show', $employee -> id);
+    }
 }

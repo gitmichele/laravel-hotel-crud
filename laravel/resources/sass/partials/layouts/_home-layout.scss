@@ -1,11 +1,29 @@
 @import '../base';
 
+.add-btn{
+
+    width: fit-content;
+    margin: 60px auto 0 auto;
+
+    a{
+
+        text-decoration: none;
+        padding: 20px 30px;
+        background-color: $third-color;
+        color: $dark-first-color;
+        border-radius: 15px;
+        font-size: $big-size;
+        font-weight: 500;
+    }
+
+}
+
 #all-employees{
 
         .container.hor-flex{
 
             border: 1px solid $light-first-color;
-            margin-top: 100px;
+            margin-top: 60px;
             padding-top: 30px;
 
             .data-col{

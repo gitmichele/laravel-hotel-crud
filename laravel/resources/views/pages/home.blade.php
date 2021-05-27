@@ -8,6 +8,14 @@
 
     <main>
 
+        <div class="container">
+            <div class="add-btn">
+                <a href="{{ route('create') }}">
+                    Add Employee
+                </a>
+            </div>
+        </div>
+
         <section id="all-employees">
 
             <div class="container hor-flex">

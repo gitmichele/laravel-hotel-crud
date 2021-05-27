@@ -15,3 +15,8 @@ Route::get('edit/{id}', 'WorkersController@edit')
     -> name('edit');
 Route::post('update/{id}', 'WorkersController@update')
     -> name('update');
+
+Route::get('create', 'WorkersController@create')
+    -> name('create');
+Route::post('store', 'WorkersController@store')
+    -> name('store');
