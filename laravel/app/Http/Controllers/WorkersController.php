@@ -13,4 +13,11 @@ class WorkersController extends Controller
 
         return view('pages.home', compact('all_employees'));
     }
+
+    public function show($id) {
+
+        $employee = Employee::findOrFail($id);
+
+        return view('pages.show', compact('employee'));
+    }
 }

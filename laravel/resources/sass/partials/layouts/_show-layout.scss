@@ -1,0 +1,43 @@
+#show-employee{
+
+    .container{
+
+        margin-top: 100px;
+
+        .data-row{
+
+            height: 120px;
+            line-height: 120px;
+            border: 1px solid black;
+
+            span{
+
+                padding-left: 100px;
+                font-size: $big-size;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+
+        .data-row:first-child{
+
+            background-color: $dark-first-color;
+
+            span{
+
+                color: #fff;
+            }
+        }
+
+        .data-row:nth-child(2){
+            
+            background-color: $third-color;
+ 
+
+            span{
+
+                color: #000;
+            }
+        }
+    }
+}

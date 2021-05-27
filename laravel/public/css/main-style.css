@@ -41,6 +41,21 @@ body {
   text-shadow: 1px 1px #253B59;
 }
 
+#main-header .container.hor-flex .home-link a {
+  color: #253B59;
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+#main-header .container.hor-flex .home-link a:hover {
+  color: #D9C877;
+  font-weight: 700;
+  text-shadow: 1px 1px #253B59;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -107,5 +122,38 @@ body {
   font-size: 22px;
   height: auto;
   padding-bottom: 30px;
+}
+
+#show-employee .container {
+  margin-top: 100px;
+}
+
+#show-employee .container .data-row {
+  height: 120px;
+  line-height: 120px;
+  border: 1px solid black;
+}
+
+#show-employee .container .data-row span {
+  padding-left: 100px;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#show-employee .container .data-row:first-child {
+  background-color: #253B59;
+}
+
+#show-employee .container .data-row:first-child span {
+  color: #fff;
+}
+
+#show-employee .container .data-row:nth-child(2) {
+  background-color: #D9AE89;
+}
+
+#show-employee .container .data-row:nth-child(2) span {
+  color: #000;
 }
 

@@ -19,5 +19,25 @@
             text-transform: uppercase;
             text-shadow: 1px 1px $dark-first-color;
         }
+
+        .home-link{
+
+            a{
+                
+                color: $dark-first-color;
+                text-decoration: none;
+                font-size: $big-size;
+                text-transform: uppercase;
+                margin-right: 30px;
+                font-weight: 500;
+
+                &:hover{
+
+                    color: $second-color;
+                    font-weight: 700;
+                    text-shadow: 1px 1px $dark-first-color;
+                }
+            }
+        }
     }
 }
