@@ -21,5 +21,11 @@
 </head>
 <body>
     
+    <div class="form-page-container">
+        @include('components.form-header')
+        @yield('content')
+    </div>
+
+    
 </body>
 </html>

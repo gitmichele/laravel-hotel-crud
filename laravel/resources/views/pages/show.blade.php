@@ -27,7 +27,14 @@
                         {{ $employee -> ral }}
                     </span>
                 </div>
+
+                <div class="delete">
+                    <a href="{{ route('destroy', $employee -> id) }}">
+                    Delete this employee  <i class="far fa-trash-alt"></i>
+                    </a>
+                </div>
             </div>
+
 
         </section>
 

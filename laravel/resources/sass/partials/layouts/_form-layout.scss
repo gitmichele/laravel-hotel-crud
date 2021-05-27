@@ -1,0 +1,44 @@
+@import '../base';
+
+.form-page-container{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    .form-container{
+        
+        width: 600px;
+        padding: 40px 0;
+        border: 1px solid black;
+
+        .fields-container{
+            
+            width: 80%;
+            margin: auto;
+            margin-bottom: 50px;
+
+            input{
+
+                margin: 20px 0 30px 0;
+                width: 100%;
+            }
+        }
+
+        .button-container{
+            
+            width: fit-content;
+            margin: 0 auto; 
+            
+            button{
+                width: 200px;
+                height: 50px;
+                margin: auto;
+                text-align: center;
+            }
+        }
+    }
+}

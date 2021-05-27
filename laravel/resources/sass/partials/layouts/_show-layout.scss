@@ -39,5 +39,21 @@
                 color: #000;
             }
         }
+
+        .delete{
+
+            margin-top: 60px;
+
+            a{
+                font-size: $big-size;
+                color: #000;
+                text-decoration: none;
+    
+                &:hover{
+    
+                    color: red;
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.hor-flex {
+  display: flex;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-header .title {
+  font-size: 48px;
+  margin: 100px 0 75px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.hor-flex {
+  display: flex;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-page-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-page-container .form-container {
+  width: 600px;
+  padding: 40px 0;
+  border: 1px solid black;
+}
+
+.form-page-container .form-container .fields-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.form-page-container .form-container .fields-container input {
+  margin: 20px 0 30px 0;
+  width: 100%;
+}
+
+.form-page-container .form-container .button-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form-page-container .form-container .button-container button {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+

@@ -157,3 +157,17 @@ body {
   color: #000;
 }
 
+#show-employee .container .delete {
+  margin-top: 60px;
+}
+
+#show-employee .container .delete a {
+  font-size: 22px;
+  color: #000;
+  text-decoration: none;
+}
+
+#show-employee .container .delete a:hover {
+  color: red;
+}
+

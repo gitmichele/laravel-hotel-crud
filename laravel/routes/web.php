@@ -7,3 +7,11 @@ Route::get('/', 'WorkersController@index')
 
 Route::get('show/{id}', 'WorkersController@show')
     -> name('show');
+
+Route::get('destroy/{id}', 'WorkersController@destroy')
+    -> name('destroy');
+
+Route::get('edit/{id}', 'WorkersController@edit')
+    -> name('edit');
+Route::post('update/{id}', 'WorkersController@update')
+    -> name('update');
